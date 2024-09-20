@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        border-style: dashed;
+        border-radius: 5%;
+        border-color: rgb(255, 0, 187);
+        background-color: rgb(222, 220, 255);
+      }
+      thead,
+      tbody,
+      tfoot {
+        border: 1px solid snow;
+      }
+      table:hover {
+        background-color: bisque;
+      }
+      table:active {
+        background-color: crimson;
+      }
+      #enName {
+        font-style: italic;
+      }
+      .subject {
+        font-weight: bolder;
+      }
+      #topic {
+        background-color: palegreen;
+      }
+      #phone {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="4" align="center">
+      <thead>
+        <tr>
+          <th colspan="4" id="topic">個人資料</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="subject">中文姓名</td>
+          <td>劉叡霖</td>
+          <td rowspan="2" colspan="2">
+            <img
+              src="https://static.vecteezy.com/system/resources/thumbnails/027/971/502/small_2x/colorful-panther-chameleon-in-wild-nature-ai-generated-photo.jpeg"
+              width="250"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="subject">英文姓名</td>
+          <td id="enName">LIU, RUI, LIN</td>
+        </tr>
+        <tr>
+          <td class="subject">生日</td>
+          <td>5月22日</td>
+          <td class="subject">居住地</td>
+          <td>高雄市</td>
+        </tr>
+        <tr>
+          <td class="subject">手機</td>
+          <td colspan="3" id="phone">0908201657</td>
+        </tr>
+        <tr>
+          <td class="subject">email</td>
+          <td colspan="3">C112156208@nkust.edu.tw</td>
+        </tr>
+        <tr>
+          <td class="subject">地址</td>
+          <td colspan="3">824高雄市燕巢區深中路58號</td>
+        </tr>
+        <tr>
+          <td class="subject">研究興趣</td>
+          <td colspan="3">下棋、寫程式、看影集</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
